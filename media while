@@ -1,0 +1,25 @@
+
+resp='S'
+soma=0
+qtde=0
+maior=0
+menor=0
+media=0
+while resp!='N':
+    n = int(input("Digite: "))
+    resp = str(input("Quer continuar? "))
+    soma=soma+n
+    qtde+=1
+    if qtde==1:
+        maior=n
+        menor=n
+    else:
+        if n>maior:
+            maior=n
+        if n<menor:
+            menor=n
+
+media=soma/qtde
+print("Média: {} ".format(media))
+print("Maior número: {}".format(maior))
+print("Menor número: {}".format(menor))
