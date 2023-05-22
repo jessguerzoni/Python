@@ -1,0 +1,11 @@
+s=str(input("Digite o sexo da pessoa: ")).strip().upper()
+
+while s!= 'F' and s!='M':
+    s=str(input("Sexo inválido. Digite novamente: ")).strip().upper()
+
+if s=='M':
+    sex=s.replace('M','masculino')
+if s=='F':
+    sex=s.replace('F','feminino')
+
+print("A pessoa tem o sexo {}".format(sex))
