@@ -1,0 +1,11 @@
+real=float(input("How much money do you have in your wallet? "))
+conv=int(input("Digite o fator de conversão: "))
+
+if(conv==1):
+    dolar=real/4.78
+    print("You can buy US$ {:.2f} dollars".format(dolar))
+else:
+    euro=real/5.26
+    print("You can buy E$ {:.2f} euros".format(euro))
+
+
