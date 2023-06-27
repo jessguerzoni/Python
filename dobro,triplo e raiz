@@ -1,0 +1,9 @@
+num=int(input("Leia um numero: "))
+
+dobro=num*2
+triplo=num*3
+raiz=num**0.5
+
+print("O dobro de {} é igual a {}".format(num,dobro))
+print("O triplo de {} é igual a {}".format(num,triplo))
+print("A raiz de {} é igual a {}".format(num,raiz))
