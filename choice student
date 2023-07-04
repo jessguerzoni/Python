@@ -1,0 +1,11 @@
+import random
+
+a1=str(input("First student: "))
+a2=str(input("Second student: "))
+a3=str(input("Third student: "))
+a4=str(input("Fourth student: "))
+
+lista=[a1,a2,a3,a4]
+choice=random.choice(lista)
+
+print("The chosen student was {}".format(choice))
