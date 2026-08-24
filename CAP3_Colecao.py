@@ -1,27 +1,13 @@
 #1
 
 #criando a lista vazia
-lista=[]
+times=['Manchester','Barcelona','Real Madrid','PSG']
 
-#acrescentando elementos na lista
-
-for i in range(5):
-  lista.append(input("Digite o nome do time: "))
-
-#a)
 print("Os três primeiros colocados: {} ".format(lista[0:3]))
-
-#b)
 print("Os dois ultimos colocados: {}".format(lista[-2:]))
-
-#c)
 print("Ordem alfabética: {}".format(sorted(lista)))
+print("Barcelona se encontra da posicao de índice {}".format(lista.index("Barcelona")))
 
-#d)
-if "Barcelona" in lista:
-  print("Barcelona se encontra da posicao de índice {}".format(lista.index("Barcelona")))
-else:
-  print("Barcelona não está na lista")
 
 
 #2
