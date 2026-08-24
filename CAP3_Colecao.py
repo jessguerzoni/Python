@@ -2,10 +2,10 @@
 
 times=['Manchester','Barcelona','Real Madrid','PSG']
 
-print("Os três primeiros colocados: {} ".format(lista[0:3]))
-print("Os dois ultimos colocados: {}".format(lista[-2:]))
-print("Ordem alfabética: {}".format(sorted(lista)))
-print("Barcelona se encontra da posicao de índice {}".format(lista.index("Barcelona")))
+print("Os três primeiros colocados: {} ".format(times[0:3]))
+print("Os dois ultimos colocados: {}".format(times[-2:]))
+print("Ordem alfabética: {}".format(sorted(times)))
+print("Barcelona se encontra da posicao de índice {}".format(times.index("Barcelona")))
 
 
 
