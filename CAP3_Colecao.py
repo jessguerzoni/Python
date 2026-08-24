@@ -1,6 +1,5 @@
 #1
 
-#criando a lista vazia
 times=['Manchester','Barcelona','Real Madrid','PSG']
 
 print("Os três primeiros colocados: {} ".format(lista[0:3]))
