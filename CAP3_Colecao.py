@@ -31,7 +31,7 @@ else:
 
 #modelos no total
 total=loja1|loja2
-print("Modelos disponíveis em ambas as lojas: {}".format(total))
+print("Modelos disponíveis nas lojas: {}".format(total))
 
 #3
 
