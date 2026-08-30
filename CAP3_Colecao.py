@@ -1,6 +1,6 @@
 #1
 
-times=['Manchester','Barcelona','Real Madrid','PSG']
+times=['Manchester','Barcelona','Real Madrid','PSG','Flamengo']
 
 print("Os três primeiros colocados: {} ".format(times[0:3]))
 print("Os dois ultimos colocados: {}".format(times[-2:]))
