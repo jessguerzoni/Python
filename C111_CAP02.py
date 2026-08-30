@@ -9,14 +9,14 @@ print(nome.replace("Guerzoni","do Inatel"))
 ///////////////////////////////////////////////////////
 
 #02
-
-num=int(input("Digite um valor para a tabuada: "))
-ini=int(input("De: "))
-fin=int(input("Para: "))
+num=int(input("Digite um valor: "))
+ini=int(input("Inicio do intervalo: "))
+fim=int(input("Fim do Intervalo: "))
 
 i=ini
-for i in range(ini,fin+1):
-  print("{} X {}".format(num, i))
+for i in range(ini,fim+1):
+  res=num*i
+  print('{} X {} = {}'.format(num,i,res))
   i+=1
 
 ///////////////////////////////////////////////////////
